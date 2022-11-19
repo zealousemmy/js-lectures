@@ -4,7 +4,7 @@ let studentData = {
   name: "John",
   age: 18,
   gender: "male",
-  isAStudent: true,
+  isAStudent: false,
   complain: null,
 };
 

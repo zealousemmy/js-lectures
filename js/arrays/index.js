@@ -10,3 +10,4 @@ let arrOfObj = [
   { name: "emeka", age: 19, class: "ss3" },
   { name: "samuel", age: 20, class: "university" },
 ];
+console.log (arrOfObj);

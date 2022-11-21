@@ -17,7 +17,7 @@ body {
   justify-content: center;
 }
 .bgRed {
-  background-color: red;
+  background-color: rgb(112, 54, 54);
 }
 .getUsers {
   width: 50%;

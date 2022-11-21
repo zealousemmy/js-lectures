@@ -4,11 +4,11 @@ let divContainer = document.getElementById("container");
 let h1Text = document.getElementById("text");
 let user = document.getElementById("userName"); // html input element
 let submitButton = document.querySelector("#submit");
-let password = document.getElementById("password");
+// let password = document.getElementById("password");
 
 function getUsers() {
   let userName = user.value;
-  let password = password.value;
+  // let password = password.value;
   h1Text.innerHTML = "We are glad to have you" + " " + userName;
   h1Text.innerHTML = `We are glad to have you ${userName}`;
   //document.write("submitted");
@@ -26,4 +26,4 @@ function changeColor() {
   }
   console.log("clicked me" + divContainer);
 }
-changeDom();
+// changeDom();

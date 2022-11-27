@@ -35,3 +35,7 @@ body {
   width: 10%;
   margin: 1rem auto;
 }
+.light-mode .button-container {
+  background-color: pink;
+  height: 10vh;
+}

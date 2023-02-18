@@ -1,0 +1,35 @@
+#content{
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    color:#444;
+    margin: 0 auto;
+    max-height: 90px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.95s;
+    -moz-transition: max-height 0.95s;
+    transition: max-height 0.95s;
+    
+}
+
+#content.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.95s;
+    -moz-transition: max-height 0.95s;
+    transition: max-height 0.95s;
+    
+}
+
+#show-more{
+    background-color: blue;
+    color: #fff;
+    display: block;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 10px;
+
+}

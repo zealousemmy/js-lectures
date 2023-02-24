@@ -3,7 +3,7 @@ const getInputValues = document.querySelector("#getValue");
 const calculateButton = document.getElementById("calculate");
 const valueDisplay = document.querySelector("#displayValue");
 function calculate() {
-  console.log("from calculate button");
+  console.log("calculate");
 }
 // calculateButton.addEventListener("click", calculate);
 // or
@@ -11,14 +11,14 @@ calculateButton.addEventListener("click", function () {
   // eval function evaluates values
   let inputValue = getInputValues.value; // getting the value of the input tag
   let a = eval(inputValue); // evaluating or calculating the contents inside the input tag
-  // valueDisplay is the h6 element in our html. the variable was declared in line four
+  // valueDisplay is the h6 element in our html. the variable was declared in line fourƒ
   valueDisplay.innerHTML = a; // displaying the calculated value
   console.log(a);
   getInputValues.value = "";
 });
 // let buttonText = document.querySelectorAll("button");
 // or
-// calculateButton.addEventListener("click", () => {
+// calculateButton.addEventListener("click", () => {ƒ
 //   console.log("from calculate button");
 // });
 let bodyMode = document.getElementById("body");
@@ -113,3 +113,4 @@ let clear = document.querySelector("#clear").addEventListener("click", () => {
   console.log(1);
   getInputValues.value = " ";
 });
+

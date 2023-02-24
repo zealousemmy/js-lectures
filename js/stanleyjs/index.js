@@ -14,7 +14,8 @@ function userInfo() {
   let uAddress = userAddress.value;
   let uPassword = userPassword.value;
 
-  h1Text.innerHTML = `Welcome, let's create magic ${fName}`;
+  h1Text.innerHTML = `Welcome, let's create magic, ${fName}, ${uName}`;
+
 }
 
 submitButton.addEventListener("click", userInfo);

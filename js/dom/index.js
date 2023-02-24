@@ -1,29 +1,25 @@
-// dom document Object Module
+let parentContainer = document.getElementById("index")
+console.log(parentContainer)
 
-let divContainer = document.getElementById("container");
-let h1Text = document.getElementById("text");
-let user = document.getElementById("userName"); // html input element
-let submitButton = document.querySelector("#submit");
-// let password = document.getElementById("password");
+console.log("working")
+let H1 = document.createElement("h1")
+console.log(h1)
 
-function getUsers() {
-  let userName = user.value;
-  // let password = password.value;
-  h1Text.innerHTML = "We are glad to have you" + " " + userName;
-  h1Text.innerHTML = `We are glad to have you ${userName}`;
-  //document.write("submitted");
-}
-// calling the submit button from our html
-// addEventListener expects the event it should listen "click" or "onhover" etc.
-submitButton.addEventListener("click", getUsers);
+H1.innerText = "Hello world";
 
-function changeColor() {
-  //   divContainer.style.background = "red";
-  if (divContainer.className == "container") {
-    divContainer.classList.add("bgRed");
-  } else {
-    divContainer.classList.remove("bgRed");
-  }
-  console.log("clicked me" + divContainer);
-}
-// changeDom();
+let NavContainer = document.createElement("nav");
+let anchorTag = document.createElement("a");
+
+parentContainer.append(h1)
+
+let navItems = [
+    {text: "home", link:"/"},
+    {text:"about", link:"/about"}, 
+     {text: "contact", link:"/contact"}
+]
+
+let newItem = navItems.map((items) => {
+   return items.text
+})
+
+console.log(newItem)

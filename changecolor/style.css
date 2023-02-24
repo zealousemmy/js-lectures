@@ -1,0 +1,19 @@
+body{
+    background:#dbd3d3;
+}
+
+
+
+#color-changer{
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background: #fff;
+
+    
+    -webkit-transition:  0.7s;
+    -moz-transition:  0.7s;
+    transition:  0.7s; 
+}
+ 

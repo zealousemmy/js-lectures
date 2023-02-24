@@ -14,3 +14,10 @@ let studentName = studentData.name;
 
 // deleting something inside of an object
 delete studentData.complain;
+
+const myCar = new Object();
+myCar.maxSpeed = 80;
+myCar.driver = "Abu";
+myCar.drive = function(){
+  console.log("now driving");
+};

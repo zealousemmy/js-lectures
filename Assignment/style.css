@@ -1,0 +1,12 @@
+.userData{
+    margin: 100px 100px 0px 100px;
+    
+}
+
+.showUserInfo{
+    background-color: brown;
+    border-radius: solid, 2px #fff;
+    padding: 10%;
+    width: 10%;
+    margin: 50px;
+}

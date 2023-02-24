@@ -30,3 +30,12 @@
 // console.log(trueText);
 // console.log(numOne);
 // console.log(numBoolean);
+list = [1, 2.3, "ass", true];
+list.forEach(element => {
+    console.log(element);
+});
+
+array.forEach(element => {
+    
+});
+
